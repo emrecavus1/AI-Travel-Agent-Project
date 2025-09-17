@@ -18,24 +18,6 @@ This project is an AI-powered travel planning assistant. It generates optimized 
 - **AI/ML**: OpenAI LLM, Scikit-Learn  
 - **Environment**: Python 3.12+  
 
-## Project Structure
-AI-Travel-Agent-Project/
-│── app.py # Streamlit entry point
-│── layout.py # UI components
-│── helpers.py # Input checks & derived values
-│── fetch_data.py # API filtering & integration
-│── mappings.py # Preference to category mapping
-│── agents/
-│ ├── llm_agent.py # LLM integration
-│ ├── scoring_agent.py# Scoring mechanism
-│ └── hybrid_agent.py # Hybrid pipeline
-│── apis/
-│ ├── google_places.py
-│ ├── yelp.py
-│ └── osm.py
-│── .env # API keys (not tracked in git)
-│── requirements.txt # Dependencies
-└── README.md
 
 
 ## Installation & Setup
